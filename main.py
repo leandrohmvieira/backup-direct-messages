@@ -21,7 +21,7 @@ class Application:
         self.selected_thread_id = ''
 
         if not os.path.exists(output_dir):
-            os.mkdir(output_dir, 0755)
+            os.mkdir(output_dir, 755)
 
         self.dump_file = open(os.path.join(output_dir, 'dump_file.csv'), 'wb')
         self.csv_handler = csv.writer(self.dump_file)
