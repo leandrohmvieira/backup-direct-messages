@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import urllib2
+import urllib
 import os
 import argparse
 import csv
